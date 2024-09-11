@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Eduardo Gabriel Vicente">
+  <meta name="description" content="Portfólio Eduardo Vicente desenvolvido em HTML, CSS e JS">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/icons/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <title>Eduardo Vicente - Portfólio</title>
+</head>
+<body>
+
+  <header id="home">
+    <div class="container">
+      <h1 class="name">Olá, Eu sou <span class="highlight">&lt;Eduardo Vicente/></span></h1>
+      <p class="subtitle">Desenvolvedor Web | Fullstack | Freelancer</p>
+      <a href="#about" class="btn">Saiba Mais</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-content">
+        <img src="/img/profile/profile.png" alt="Imagem Eduardo Vicente" class="profile-img">
+        <div class="about-text">
+          <h2 class="section-title">Sobre Mim</h2>
+          <p class="about">Sou um desenvolvedor web com uma paixão por criar designs elegantes e funcionais. Tenho experiência em HTML, CSS, Mysql,JavaScript, React, e diversas bibliotecas e frameworks.</p>
+          <div class="skill-container">
+            <a class="btn skill-btn" id="hard-skill-btn">Hard Skills</a>
+            <div class="tooltip" id="hard-skill-tooltip">
+              <p>- HTML</p>
+              <p>- CSS</p>
+              <p>- JavaScript</p>
+              <p>- React.js</p>
+              <p>- Node.js</p>
+              <p>- Mysql</p>
+            </div>
+          </div>
+          <div class="skill-container">
+            <a class="btn skill-btn" id="soft-skill-btn">Soft Skills</a>
+            <div class="tooltip" id="soft-skill-tooltip">
+              <p>- Comunicação</p>
+              <p>- Trabalho em equipe</p>
+              <p>- Resolução de problemas</p>
+              <p>- Adaptabilidade</p>
+              <p>- Criatividade</p>
+            </div>
+          </div>
+          <a href="#projects" class="btn" id="btn-projects">Meus Projetos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Meus Projetos</h2>
+      <div class="project-grid">
+        <div class="project">
+          <a href="/projects/calculator/index.html" class="btn">Ver Projeto</a>
+            <h3>Calculadora Responsiva</h3>
+            <p>Uma calculadora moderna e responsiva que realiza operações matemáticas básicas. Totalmente acessível via desktop e dispositivos móveis.</p>
+            <img src="/img/banners/calculator.png" alt="Projeto Calculadora">
+          </div>
+        <div class="project">
+          <a href="/projects/memory_game/index.html" class="btn">Ver Projeto</a>
+          <h3>Jogo da Memória</h3>
+          <p>Um jogo da memória interativo com cartas que podem ser viradas. Desafie-se a encontrar todos os pares no menor tempo possível!</p>
+          <img src="/img/banners/memory-game.png" alt="Projeto Jogo da Memória">
+        </div>
+      </div>
+      <a href="#contact" class="btn">Contato</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contato</h2>
+      <p class="contact-text">Se você deseja entrar em contato comigo, pode me encontrar nas plataformas abaixo:</p>
+      
+      <div class="contact-links">
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/eduardo-gabriel-vicente-8687b7327/" class="contact-link" target="_blank">
+          <img src="/img/icons/linkedin.png" alt="LinkedIn" class="contact-icon">
+          <span>LinkedIn</span>
+        </a>
+        
+        <!-- Email -->
+        <a href="mailto:egabrielvicente6@gmail.com" class="contact-link">
+          <img src="/img/icons/email.png" alt="Email" class="contact-icon">
+          <span>Email</span>
+        </a>
+        
+        <!-- GitHub -->
+        <a href="https://github.com/EduardoGabrielV" class="contact-link" target="_blank">
+          <img src="/img/icons/github.png" alt="GitHub" class="contact-icon">
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Eduardo Vicente. Todos os direitos reservados.</p>
+    </div>
+    <a id="top" href="#home">voltar ao topo</a>
+  </footer>
+
+  <script defer src="/script.js"></script>
+</body>
+</html>
