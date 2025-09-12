@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "live": "^0.1.19",
+    "server": "^1.0.42"
+  }
+}
